@@ -1,0 +1,24 @@
+{
+  "name": "dental_server",
+  "version": "1.0.0",
+  "description": "Express server to serve DIT356 Group 17's dental app backend functionality",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "DIT 356 Group 17",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^8.0.3",
+    "mqtt": "^5.3.4",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.2"
+  }
+}
