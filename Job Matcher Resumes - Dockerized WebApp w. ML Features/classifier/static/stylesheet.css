@@ -1,0 +1,151 @@
+.navBar {
+    width: 100%;
+    height: 4vh;
+    background-color: #081F5C;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #F4ECDE;
+}
+
+.logo {
+    width: 100%;
+    height: 10vh;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 350%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    width: 45%;
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.results-container {
+    width: 22%;
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    top: 17pt;
+    border-radius: 15pt;
+}
+
+.formBox {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #081F5C;
+    color: white;
+    position: relative;
+    top: 20pt;
+    padding: 10pt;
+    border-radius: 15pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formName, .result-title {
+    display: block;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 230%;
+}
+
+.formName {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+.formInput {
+    display: block;
+    border-radius: 15pt;
+    font-size: 18px;
+    width: 90%;
+    height: 70%;
+    border: 5px solid #94add3;
+    outline: none;
+    transition: all 0.3s ease;
+    caret-color: black;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    padding: 10pt;
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+
+.formInput:focus {
+    border-color: #5387d4;
+    box-shadow: 0 0 5px #081F5C;
+}
+
+.formButton {
+    margin-top: 17pt;
+    margin-bottom: 10pt;
+    border-radius: 5pt;
+    font-size: 140%;
+    width: 100pt;
+    color: white;
+    border: none;
+    outline: none;
+    height: 45pt;
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer;
+    background-color: #334eac;
+}
+
+.formButton:hover {
+    background-color: #21357e;
+    color: rgb(218, 218, 218);
+}
+
+.result-text {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-size: 130%;
+    margin-top: -21px;
+}
+
+.progress-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    height: 20px;
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+}
+
+.progress-bar {
+    background-color: #081F5C;
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.no-bullets li {
+    margin-top: 7px;
+}

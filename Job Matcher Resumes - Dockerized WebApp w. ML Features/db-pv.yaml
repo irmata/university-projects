@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: db-pv
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  gcePersistentDisk:
+    pdName: sqlite-disk  # Ensure this matches your disk name in Google Cloud
+    fsType: ext4
+  storageClassName: standard-rwo
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: topology.gke.io/zone
+              operator: In
+              values:
+                - europe-west4-a

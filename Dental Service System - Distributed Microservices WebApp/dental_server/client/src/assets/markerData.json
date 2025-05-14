@@ -1,0 +1,962 @@
+[
+    {
+      "_id": {
+        "$oid": "65688d2320ecaabba9db6138"
+      },
+      "name": "Luminous Smiles",
+      "street_name": "Aröds industriväg",
+      "street_number": "70",
+      "post_number": "422 43",
+      "city": "Göteborg",
+      "latitude": "57.741006",
+      "longitude": "11.952638",
+      "opening_time": "07:00",
+      "cloising_time": "20:00",
+      "default_appointment_duration": {
+        "$numberInt": "15"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687ca72cbbbc27aa512bf2"
+        },
+        {
+          "$oid": "65687caa2cbbbc27aa512bf5"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2520ecaabba9db613b"
+      },
+      "name": "Azure Center",
+      "street_name": "Berzeliigatan",
+      "street_number": "4",
+      "post_number": "412 53",
+      "city": "Göteborg",
+      "latitude": "57.698376",
+      "longitude": "11.980490",
+      "opening_time": "08:00",
+      "cloising_time": "16:00",
+      "default_appointment_duration": {
+        "$numberInt": "30"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687caa2cbbbc27aa512bf7"
+        },
+        {
+          "$oid": "65687caa2cbbbc27aa512bf9"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2520ecaabba9db613d"
+      },
+      "name": "Swedish Dental Group",
+      "street_name": "Ostindiegatan",
+      "street_number": "7B",
+      "post_number": "414 53",
+      "city": "Göteborg",
+      "latitude": "57.688743",
+      "longitude": "11.917061",
+      "opening_time": "09:00",
+      "cloising_time": "15:00",
+      "default_appointment_duration": {
+        "$numberInt": "20"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687caa2cbbbc27aa512bfb"
+        },
+        {
+          "$oid": "65687caa2cbbbc27aa512bfd"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2520ecaabba9db613f"
+      },
+      "name": "Zenith Care",
+      "street_name": "Cedergatan",
+      "street_number": "5",
+      "post_number": "426 74",
+      "city": "Västra Frölunda",
+      "latitude": "57.671446",
+      "longitude": "11.875578",
+      "opening_time": "10:00",
+      "cloising_time": "22:00",
+      "default_appointment_duration": {
+        "$numberInt": "60"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cab2cbbbc27aa512bff"
+        },
+        {
+          "$oid": "65687cab2cbbbc27aa512c01"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2520ecaabba9db6141"
+      },
+      "name": "SmileCare",
+      "street_name": "Blomstrandsvägen",
+      "street_number": "4",
+      "post_number": "426 76",
+      "city": "Västra Frölunda",
+      "latitude": "57.669445",
+      "longitude": "11.850776",
+      "opening_time": "08:00",
+      "cloising_time": "23:00",
+      "default_appointment_duration": {
+        "$numberInt": "15"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cab2cbbbc27aa512c03"
+        },
+        {
+          "$oid": "65687cab2cbbbc27aa512c05"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2520ecaabba9db6143"
+      },
+      "name": "VividTeeth",
+      "street_name": "Platinagatan",
+      "street_number": "6",
+      "post_number": "426 71",
+      "city": "Västra Frölunda",
+      "latitude": "57.680931",
+      "longitude": "11.898885",
+      "opening_time": "11:00",
+      "cloising_time": "16:00",
+      "default_appointment_duration": {
+        "$numberInt": "20"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cab2cbbbc27aa512c07"
+        },
+        {
+          "$oid": "65687cab2cbbbc27aa512c09"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6145"
+      },
+      "name": "Euphoric Smiles Studio",
+      "street_name": "Markmyntsgatan",
+      "street_number": "12",
+      "post_number": "414 80",
+      "city": "Göteborg",
+      "latitude": "57.670283",
+      "longitude": "11.927896",
+      "opening_time": "11:00",
+      "cloising_time": "17:00",
+      "default_appointment_duration": {
+        "$numberInt": "30"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cab2cbbbc27aa512c0b"
+        },
+        {
+          "$oid": "65687cab2cbbbc27aa512c0d"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6147"
+      },
+      "name": "DentalCare Studio",
+      "street_name": "Toltorpsgatan",
+      "street_number": "105",
+      "post_number": "431 39",
+      "city": "Mölndal",
+      "latitude": "57.665159",
+      "longitude": "11.993481",
+      "opening_time": "05:00",
+      "cloising_time": "15:00",
+      "default_appointment_duration": {
+        "$numberInt": "15"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cab2cbbbc27aa512c0f"
+        },
+        {
+          "$oid": "65687cab2cbbbc27aa512c11"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6149"
+      },
+      "name": "Teeth & Company",
+      "street_name": "Kyrkvägen",
+      "street_number": "37",
+      "post_number": "435 30",
+      "city": "Mölnlycke",
+      "latitude": "57.660889",
+      "longitude": "12.108966",
+      "opening_time": "06:00",
+      "cloising_time": "18:00",
+      "default_appointment_duration": {
+        "$numberInt": "60"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cab2cbbbc27aa512c13"
+        },
+        {
+          "$oid": "65687cab2cbbbc27aa512c15"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db614b"
+      },
+      "name": "Golden Smiles Group",
+      "street_name": "Sägengatan",
+      "street_number": "55B",
+      "post_number": "422 58",
+      "city": "Hisings Backa",
+      "latitude": "57.747608",
+      "longitude": "11.980306",
+      "opening_time": "07:00",
+      "cloising_time": "19:00",
+      "default_appointment_duration": {
+        "$numberInt": "20"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cab2cbbbc27aa512c17"
+        },
+        {
+          "$oid": "65687cab2cbbbc27aa512c19"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db614d"
+      },
+      "name": "OasisGroup",
+      "street_name": "Fornborgsgatan",
+      "street_number": "2",
+      "post_number": "423 47",
+      "city": "Torslanda",
+      "latitude": "57.731023",
+      "longitude": "11.774741",
+      "opening_time": "08:00",
+      "cloising_time": "19:00",
+      "default_appointment_duration": {
+        "$numberInt": "15"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cab2cbbbc27aa512c1b"
+        },
+        {
+          "$oid": "65687cab2cbbbc27aa512c1d"
+        },
+        {
+          "$oid": "65687cab2cbbbc27aa512c1f"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db614f"
+      },
+      "name": "Ecliptic Smiles",
+      "street_name": "Skolspåret",
+      "street_number": "29",
+      "post_number": "424 31",
+      "city": "Angered",
+      "latitude": "57.770081",
+      "longitude": "12.015592",
+      "opening_time": "06:00",
+      "cloising_time": "16:00",
+      "default_appointment_duration": {
+        "$numberInt": "30"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cab2cbbbc27aa512c21"
+        },
+        {
+          "$oid": "65687cab2cbbbc27aa512c23"
+        },
+        {
+          "$oid": "65687cab2cbbbc27aa512c25"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6151"
+      },
+      "name": "Nordic Dental Company",
+      "street_name": "Södra Ligården",
+      "street_number": "81",
+      "post_number": "425 30",
+      "city": "Hisings Kärra",
+      "latitude": "57.793373",
+      "longitude": "11.999542",
+      "opening_time": "08:00",
+      "cloising_time": "23:00",
+      "default_appointment_duration": {
+        "$numberInt": "60"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cab2cbbbc27aa512c27"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c29"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c2b"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6153"
+      },
+      "name": "Bright Smiles Care",
+      "street_name": "Gullringevägen",
+      "street_number": "15B",
+      "post_number": "423 70",
+      "city": "Säve",
+      "latitude": "57.804350",
+      "longitude": "11.913711",
+      "opening_time": "10:00",
+      "cloising_time": "22:00",
+      "default_appointment_duration": {
+        "$numberInt": "15"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cac2cbbbc27aa512c2d"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c2f"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c31"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6155"
+      },
+      "name": "Dental Wellness",
+      "street_name": "Bromeliusgatan",
+      "street_number": "16",
+      "post_number": "416 73",
+      "city": "Göteborg",
+      "latitude": "57.720656",
+      "longitude": "12.027952",
+      "opening_time": "07:00",
+      "cloising_time": "22:00",
+      "default_appointment_duration": {
+        "$numberInt": "20"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cac2cbbbc27aa512c33"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c35"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c37"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6157"
+      },
+      "name": "Göteborgs Dental Care",
+      "street_name": "Falutorget",
+      "street_number": "1",
+      "post_number": "411 04",
+      "city": "Göteborg",
+      "latitude": "57.717585",
+      "longitude": "11.979801",
+      "opening_time": "09:00",
+      "cloising_time": "21:00",
+      "default_appointment_duration": {
+        "$numberInt": "30"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cac2cbbbc27aa512c39"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c3b"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c3d"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6159"
+      },
+      "name": "Alfredsson Munvård",
+      "street_name": "Haga Östergata",
+      "street_number": "30B",
+      "post_number": "411 22",
+      "city": "Göteborg",
+      "latitude": "57.699106",
+      "longitude": "11.960232",
+      "opening_time": "09:00",
+      "cloising_time": "18:00",
+      "default_appointment_duration": {
+        "$numberInt": "15"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cac2cbbbc27aa512c3f"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c41"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c43"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db615b"
+      },
+      "name": "Hälsosam Munvård",
+      "street_name": "Kjellmansgatan",
+      "street_number": "3B",
+      "post_number": "414 63",
+      "city": "Göteborg",
+      "latitude": "57.698556",
+      "longitude": "11.936285",
+      "opening_time": "07:00",
+      "cloising_time": "16:00",
+      "default_appointment_duration": {
+        "$numberInt": "30"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cac2cbbbc27aa512c45"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c47"
+        },
+        {
+          "$oid": "65687cac2cbbbc27aa512c49"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db615d"
+      },
+      "name": "Anna Tandvård",
+      "street_name": "Skeppsbron",
+      "street_number": "5",
+      "post_number": "411 21",
+      "city": "Göteborg",
+      "latitude": "57.703830",
+      "longitude": "11.954910",
+      "opening_time": "04:00",
+      "cloising_time": "14:00",
+      "default_appointment_duration": {
+        "$numberInt": "20"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cad2cbbbc27aa512c4b"
+        },
+        {
+          "$oid": "65687cad2cbbbc27aa512c4d"
+        },
+        {
+          "$oid": "65687cad2cbbbc27aa512c4f"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db615f"
+      },
+      "name": "Tand & Omsorg",
+      "street_name": "Karl Gustavsgatan",
+      "street_number": "34",
+      "post_number": "411 31",
+      "city": "Göteborg",
+      "latitude": "57.694657",
+      "longitude": "11.969415",
+      "opening_time": "06:00",
+      "cloising_time": "22:00",
+      "default_appointment_duration": {
+        "$numberInt": "60"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cad2cbbbc27aa512c51"
+        },
+        {
+          "$oid": "65687cad2cbbbc27aa512c53"
+        },
+        {
+          "$oid": "65687cad2cbbbc27aa512c55"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6161"
+      },
+      "name": "Lugn Tandvård",
+      "street_name": "Nordenskiöldsgatan",
+      "street_number": "19",
+      "post_number": "413 09",
+      "city": "Göteborg",
+      "latitude": "57.692776",
+      "longitude": "11.950361",
+      "opening_time": "10:00",
+      "cloising_time": "23:00",
+      "default_appointment_duration": {
+        "$numberInt": "15"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cad2cbbbc27aa512c57"
+        },
+        {
+          "$oid": "65687cad2cbbbc27aa512c59"
+        },
+        {
+          "$oid": "65687cad2cbbbc27aa512c5b"
+        },
+        {
+          "$oid": "65687cad2cbbbc27aa512c5d"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6163"
+      },
+      "name": "Sigrud Munvård",
+      "street_name": "Karl Johanstorget",
+      "street_number": "1",
+      "post_number": "414 61",
+      "city": "Göteborg",
+      "latitude": "57.694565",
+      "longitude": "11.928989",
+      "opening_time": "07:00",
+      "cloising_time": "21:00",
+      "default_appointment_duration": {
+        "$numberInt": "30"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cae2cbbbc27aa512c5f"
+        },
+        {
+          "$oid": "65687cae2cbbbc27aa512c61"
+        },
+        {
+          "$oid": "65687cae2cbbbc27aa512c63"
+        },
+        {
+          "$oid": "65687cae2cbbbc27aa512c65"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6165"
+      },
+      "name": "Breathe & Breeze",
+      "street_name": "Slottsskogsgatan",
+      "street_number": "1",
+      "post_number": "414 53",
+      "city": "Göteborg",
+      "latitude": "57.690620",
+      "longitude": "11.915428",
+      "opening_time": "05:00",
+      "cloising_time": "20:00",
+      "default_appointment_duration": {
+        "$numberInt": "20"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cae2cbbbc27aa512c67"
+        },
+        {
+          "$oid": "65687cae2cbbbc27aa512c69"
+        },
+        {
+          "$oid": "65687cae2cbbbc27aa512c6b"
+        },
+        {
+          "$oid": "65687cae2cbbbc27aa512c6d"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6167"
+      },
+      "name": "Frisch Tandhälsa",
+      "street_name": "Måsgatan",
+      "street_number": "4",
+      "post_number": "426 69",
+      "city": "Västra Frölunda",
+      "latitude": "57.675111",
+      "longitude": "11.891567",
+      "opening_time": "09:00",
+      "cloising_time": "17:00",
+      "default_appointment_duration": {
+        "$numberInt": "60"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cae2cbbbc27aa512c6f"
+        },
+        {
+          "$oid": "65687cae2cbbbc27aa512c71"
+        },
+        {
+          "$oid": "65687caf2cbbbc27aa512c73"
+        },
+        {
+          "$oid": "65687caf2cbbbc27aa512c75"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2620ecaabba9db6169"
+      },
+      "name": "Sund Tandvård Lycka",
+      "street_name": "Riksdalersgatan",
+      "street_number": "43",
+      "post_number": "414 81",
+      "city": "Göteborg",
+      "latitude": "57.669177",
+      "longitude": "11.923287",
+      "opening_time": "12:00",
+      "cloising_time": "18:00",
+      "default_appointment_duration": {
+        "$numberInt": "15"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687caf2cbbbc27aa512c77"
+        },
+        {
+          "$oid": "65687caf2cbbbc27aa512c79"
+        },
+        {
+          "$oid": "65687caf2cbbbc27aa512c7b"
+        },
+        {
+          "$oid": "65687caf2cbbbc27aa512c7d"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2720ecaabba9db616b"
+      },
+      "name": "Glad Mun & Sånt",
+      "street_name": "Aprikosgatan",
+      "street_number": "5",
+      "post_number": "426 56",
+      "city": "Västra Frölunda",
+      "latitude": "57.648354",
+      "longitude": "11.872044",
+      "opening_time": "10:00",
+      "cloising_time": "21:00",
+      "default_appointment_duration": {
+        "$numberInt": "30"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687caf2cbbbc27aa512c7f"
+        },
+        {
+          "$oid": "65687caf2cbbbc27aa512c81"
+        },
+        {
+          "$oid": "65687caf2cbbbc27aa512c83"
+        },
+        {
+          "$oid": "65687caf2cbbbc27aa512c85"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2720ecaabba9db616d"
+      },
+      "name": "Tänder & Händer",
+      "street_name": "Västra Eriksbergsgatan",
+      "street_number": "29",
+      "post_number": "417 64",
+      "city": "Göteborg",
+      "latitude": "57.701409",
+      "longitude": "11.910153",
+      "opening_time": "06:00",
+      "cloising_time": "17:00",
+      "default_appointment_duration": {
+        "$numberInt": "20"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cb02cbbbc27aa512c87"
+        },
+        {
+          "$oid": "65687cb02cbbbc27aa512c89"
+        },
+        {
+          "$oid": "65687cb02cbbbc27aa512c8b"
+        },
+        {
+          "$oid": "65687cb02cbbbc27aa512c8d"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2720ecaabba9db616f"
+      },
+      "name": "Hellberg Tand",
+      "street_name": "Kölnåsgatan",
+      "street_number": "49",
+      "post_number": "418 72",
+      "city": "Göteborg",
+      "latitude": "57.720115",
+      "longitude": "11.898770",
+      "opening_time": "08:00",
+      "cloising_time": "17:00",
+      "default_appointment_duration": {
+        "$numberInt": "60"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cb02cbbbc27aa512c8f"
+        },
+        {
+          "$oid": "65687cb02cbbbc27aa512c91"
+        },
+        {
+          "$oid": "65687cb02cbbbc27aa512c93"
+        },
+        {
+          "$oid": "65687cb02cbbbc27aa512c95"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2720ecaabba9db6171"
+      },
+      "name": "Frisk Luft Group",
+      "street_name": "Ringögatan",
+      "street_number": "3",
+      "post_number": "417 07",
+      "city": "Göteborg",
+      "latitude": "57.720848",
+      "longitude": "11.964001",
+      "opening_time": "11:00",
+      "cloising_time": "16:00",
+      "default_appointment_duration": {
+        "$numberInt": "15"
+      },
+      "ownership_type": "Private",
+      "dentists": [
+        {
+          "$oid": "65687cb02cbbbc27aa512c97"
+        },
+        {
+          "$oid": "65687cb12cbbbc27aa512c99"
+        },
+        {
+          "$oid": "65687cb12cbbbc27aa512c9b"
+        },
+        {
+          "$oid": "65687cb12cbbbc27aa512c9d"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65688d2720ecaabba9db6173"
+      },
+      "name": "Stärkta Tänder Klinik",
+      "street_name": "Lars Kaggsgatan",
+      "street_number": "14A",
+      "post_number": "415 03",
+      "city": "Göteborg",
+      "latitude": "57.730794",
+      "longitude": "12.009191",
+      "opening_time": "07:00",
+      "cloising_time": "16:00",
+      "default_appointment_duration": {
+        "$numberInt": "30"
+      },
+      "ownership_type": "Public",
+      "dentists": [
+        {
+          "$oid": "65687cb12cbbbc27aa512c9f"
+        },
+        {
+          "$oid": "65687cb12cbbbc27aa512ca1"
+        },
+        {
+          "$oid": "65687cb12cbbbc27aa512ca3"
+        },
+        {
+          "$oid": "65687cb12cbbbc27aa512ca5"
+        }
+      ],
+      "__v": {
+        "$numberInt": "0"
+      }
+    }
+  ]

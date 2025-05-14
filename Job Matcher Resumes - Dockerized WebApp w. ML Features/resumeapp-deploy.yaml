@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: resumeapp
+  labels:
+    app: resumeapp
+spec:
+  replicas: 3  # Number of pod replicas
+  selector:
+    matchLabels:
+      app: resumeapp
+  template:
+    metadata:
+      labels:
+        app: resumeapp
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                - key: topology.gke.io/zone
+                  operator: In
+                  values:
+                    - europe-west4-a
+      containers:
+        - name: resumeapp
+          image: gcr.io/focused-sprite-443911-p2/resumeapp:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+          volumeMounts:
+            - name: models-volume
+              mountPath: /app/classifier/model
+            - name: db-volume
+              mountPath: /app/database
+      volumes:
+        - name: models-volume
+          persistentVolumeClaim:
+            claimName: models-pvc
+        - name: db-volume
+          persistentVolumeClaim:
+            claimName: db-pvc
+---
